@@ -13,6 +13,7 @@ html, body {
 	/* Background */
 	background-color: #0A0A24;
 	background-image: url("/back.png");
+	background-position: center;
 	
 	/* Font */
 	font-family: Tahoma, Verdana, sans-serif;
