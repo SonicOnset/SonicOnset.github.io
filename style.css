@@ -84,7 +84,9 @@ html, body {
 
 .content hr {
 	/* Style */
-	width: 100%;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 	border: 1pt solid #08081580;
 }
 
@@ -131,12 +133,91 @@ html, body {
 	color: #40C0FFFF;
 }
 
-.content hr {
-	/* Style */
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1pt solid #08081580;
+/* 'About Us' classes */
+.soa_bio_l {
+	/* Positioning */
+	display: block;
+	width: auto;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+
+.soa_bio_l p {
+	/* Font */
+	color: #FFFFFFFF;
+	margin-left: 112pt;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	font-size: 12pt;
+	text-align: left;
+	text-shadow: 1pt 1pt #08081580;
+}
+
+.soa_bio_l h3 {
+	/* Font */
+	color: #E0E0E0FF;
+	font-size: 15pt;
+	font-weight: bold;
+	text-shadow: 2pt 2pt #08081580;
+	text-align: left;
+}
+
+.soa_bio_l .soa_pfp {
+	/* Positioning */
+	display: inline-block;
+	float: left;
+	width: 100pt;
+	height: 100pt;
+	
+	/* Circular crop and border */
+	border-radius: 50%;
+	border: 3px solid #FFFFFF;
+	
+	/* Drop shadow */
+	box-shadow: 1pt 1pt 0pt 1pt #888888;
+}
+
+.soa_bio_r {
+	/* Positioning */
+	display: block;
+	width: auto;
+	margin-left: 20pt;
+	margin-right: 20pt;
+}
+
+.soa_bio_r p {
+	/* Font */
+	color: #FFFFFFFF;
+	margin-right: 112pt;
+	margin-top: 2pt;
+	margin-bottom: 2pt;
+	font-size: 12pt;
+	text-align: right;
+	text-shadow: 1pt 1pt #08081580;
+}
+
+.soa_bio_r h3 {
+	/* Font */
+	color: #E0E0E0FF;
+	font-size: 15pt;
+	font-weight: bold;
+	text-shadow: 2pt 2pt #08081580;
+	text-align: right;
+}
+
+.soa_bio_r .soa_pfp {
+	/* Positioning */
+	display: inline-block;
+	float: right;
+	width: 100pt;
+	height: 100pt;
+	
+	/* Circular crop and border */
+	border-radius: 50%;
+	border: 3px solid #FFFFFF;
+	
+	/* Drop shadow */
+	box-shadow: 1pt 1pt 0pt 1pt #888888;
 }
 
 /* Misc. classes */
